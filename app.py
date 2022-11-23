@@ -13,8 +13,8 @@ def main():
         return render_template('main.html')
 
     if flask.request.method == 'POST':
-        loaded_model_Depth = load_model('./model_Depth.h5')
-        loaded_model_Width = load_model('./model_Width.h5')
+        loaded_model_Depth = load_model('./model/model_Depth.h5')
+        loaded_model_Width = load_model('./model/model_Width.h5')
         IW = float(flask.request.form['IW'])
         IF = float(flask.request.form['IF'])
         VW = float(flask.request.form['VW'])
