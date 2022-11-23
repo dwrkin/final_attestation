@@ -21,7 +21,7 @@ Width – ширина сварного шва
 
 Комментарии:
 Репозиторий состоит из файлов:
-- model_Depth.h5 – сохраненная модель для Depth
-- model_Width.h5 – сохраненная модель для Width
+- model/model_Depth.h5 – сохраненная модель для Depth
+- model/model_Width.h5 – сохраненная модель для Width
 - app.py - исходный код приложения
 - templates/main.html – html-шаблон, который используется в приложении
